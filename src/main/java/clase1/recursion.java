@@ -39,12 +39,7 @@ public class recursion {
     
  public static int  BuscarElemento (int arr [], int i, int n, int f) {
      
-     if(f<1){
-         
-         return -1;
-             
-         
-     } if(arr[i]==n){
+      if(arr[i]==n){
 
          return n;
          
@@ -52,15 +47,20 @@ public class recursion {
      } if(arr[f]==n){
 
          return n;
+     } 
+     
+     
+     if(n==f){
+         
+     
+        return 0;
+        
+       
      }
      
      else {
       
          return BuscarElemento (arr, 1+i,n,f-1);
          
-     }
-         
- }
-    
-    
+     } 
 }
