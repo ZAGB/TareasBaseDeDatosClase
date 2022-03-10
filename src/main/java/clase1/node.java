@@ -22,6 +22,8 @@ public class node {
      
  }
  
+
+ 
  /* Dar right click y colocar insert code
  * getter & setter
  * Insert all * aprenderselos y escribirlos
@@ -43,38 +45,8 @@ public class node {
         this.value = value;
     }
     
+
 }
 
-/** esto va en otra clase 
 
-    public class Pilas {
-        
- 
-        private node start; 
-        private int lenght;
-        
-        public void Pilas(){
-            
-            start= null;
-            lenght=0;
-           
-            
-        }
-        
-        
-       public boolean isEmpty(){
-           
-           return start==null;
-           
-       } 
-       
-       public int getLenght(){
-           
-           return lenght;
-           
-       }
-       
-    }
- /**
-    
-}
+
