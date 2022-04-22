@@ -24,7 +24,7 @@ public class MatrizAdyacencia {
     }
 
    
-    public void addVertex(Vertices vertex, int valor){
+    public void addVertex(Vertices vertex){
       if(this.numVertices == this.maxCapacity){
         System.out.println("El grafo ya esta lleno.");
         return;

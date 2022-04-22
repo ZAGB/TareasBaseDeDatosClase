@@ -10,4 +10,16 @@ package claseGrafos;
  */
 public class main {
     
+     MatrizAdyacencia v =new MatrizAdyacencia();
+        
+      /*  v.addVertex();
+        v.addVertex(new Vertices(0));
+        v.addVertex(new Vertices(1));
+        v.addVertex(new Vertices(0));
+        v.addVertex(new Vertices(1));
+        v.addEdge(new Vertices(1), new Vertices(1), 3);
+        v.print();*/
+    
+    
+    
 }
